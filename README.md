@@ -1,6 +1,24 @@
-[![Build Status](https://travis-ci.org/cloudcreativity/laravel-json-api.svg?branch=master)](https://travis-ci.org/cloudcreativity/laravel-json-api)
+# strongholdmedia/laravel-json-api
 
-# cloudcreativity/laravel-json-api
+**This package is a fork of _cloudcreativity/laravel-json-api_.
+It is created to maintain _backwards compatibility_ with 0.x versions.**
+
+Reasons:
+* there is no upgrade guide nor changelog from 0.x to 1.x;
+* the architecture has been changed radically, even to the point where classes become _final_;
+* there is no clear (nor unclear) reasoning behind architectural decisions;
+* 0.13 being the last 0.x version released; and
+* 0.13 being incompatible with Laravel 5.8+.
+
+Since currently I have to maintain at least one project that has been created when the last version was 0.12.0, extending classes that have become _final_, and also the package's architecture posing serious questions towards possible use cases having been had considered, I figured it is easier to revamp the original branch than upgrading any projects just yet.
+
+If you face similar problems, _feel free to use this fork_. I can, while being around, guarantee that I will bump versions and even make minor modifications necessary to keep this compatible with new Laravel versions, and also that _I will respond_ when I deem anything further infeasible or unlikely.
+
+**For any new, fresh projects, though, it is advisable that you use the mainline package, either 1.x or 2.0 when it will become final.**
+
+_Please note that I am not sure how the current state of the original package stands, but for 0.x, many statements about the features listed below are to be considered quite bold._
+
+---
 
 Add [jsonapi.org](http://jsonapi.org) compliant APIs to your Laravel 5 application. 
 Based on the framework agnostic packages [neomerx/json-api](https://github.com/neomerx/json-api) 
