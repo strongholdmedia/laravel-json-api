@@ -1,6 +1,6 @@
 {
-    "name": "cloudcreativity/laravel-json-api",
-    "description": "JSON API (jsonapi.org) support for Laravel applications.",
+    "name": "dorgaren/laravel-json-api",
+    "description": "Legacy (0.x) JSON API (jsonapi.org) support for Laravel applications",
     "keywords": [
         "jsonapi.org",
         "json-api",
